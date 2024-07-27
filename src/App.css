@@ -1,0 +1,28 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+.addBox{
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.addBox input{
+  border-radius: 4px;
+  padding: 4px;
+ 
+}
+.addButton{
+  width: 60px;
+  height: 30px;
+  border-radius: 4px;
+
+}
+.addButton:hover{
+  background-color: green;
+  color:#fff;
+}
